@@ -1,10 +1,11 @@
 import React from 'react'
+import Title from '../utilities/text/Title'
 import SkillList from './SkillList'
 
 const Skills: React.FC = () => {
   return (
-    <div>
-        <h1 className='font-bold'>Skills</h1>
+    <div className='w-full max-h-screen'>
+        <Title className='!text-[32px]'>Skills</Title>
         <SkillList />
     </div>
   )

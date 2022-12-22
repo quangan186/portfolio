@@ -2,7 +2,7 @@ import React from 'react'
 
 const Avatar:React.FC = () => {
   return (
-    <div>Avatar</div>
+    <div className='w-full'>Avatar</div>
   )
 }
 

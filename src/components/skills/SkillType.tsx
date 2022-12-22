@@ -1,10 +1,11 @@
 import React from 'react'
+import Title from '../utilities/text/Title'
 
 const SkillType: React.FC = () => {
   return (
-    <div>
-        <label>Frontend</label>
-        <ul>
+    <div className='w-full'>
+        <Title className='!text-[20px]'>Frontend</Title>
+        <ul className='leading-10'>
             <li>Skill</li>
             <li>Skill</li>
             <li>Skill</li>

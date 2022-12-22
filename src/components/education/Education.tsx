@@ -1,14 +1,15 @@
 import React from 'react'
+import Text from '../utilities/text/Text'
+import Title from '../utilities/text/Title'
 
 const Education:React.FC = () => {
   return (
-    <div>
-        <div>
-            <h3>Degree</h3>
-            <h3>School</h3>
+    <div className='py-4'>
+        <div className='flex'>
+            <Title className='!text-[20px]'>Bachelor of Information Technology</Title>
+            <Title className='!text-[20px] text-center'>RMIT University Vietnam</Title>
         </div>
-        <p>Time</p>
-        <p>GPA</p>
+        <Text className='!text-[16px]'>GPA: 3.3 / 4.0</Text>
     </div>
   )
 }

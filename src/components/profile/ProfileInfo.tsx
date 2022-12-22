@@ -2,7 +2,7 @@ import React from 'react'
 
 const ProfileInfo:React.FC = () => {
   return (
-    <div>ProfileInfo</div>
+    <div className='w-full'>ProfileInfo</div>
   )
 }
 

@@ -3,7 +3,7 @@ import SkillType from './SkillType'
 
 const SkillList: React.FC = () => {
   return (
-    <div>
+    <div className='flex'>
         <SkillType />
         <SkillType />
         <SkillType />

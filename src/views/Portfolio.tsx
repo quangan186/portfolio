@@ -12,7 +12,7 @@ const Portfolio: React.FC = () => {
         <Home />
         <Profile />
         <Projects />
-        <Skills  />
+        <Skills />
         <Educations />
         <PortfolioPdf />
     </div>
