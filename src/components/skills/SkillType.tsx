@@ -3,7 +3,7 @@ import Title from '../utilities/text/Title'
 
 const SkillType: React.FC = () => {
   return (
-    <div className='w-full'>
+    <div className='w-full py-4'>
         <Title className='!text-[20px]'>Frontend</Title>
         <ul className='leading-10'>
             <li>Skill</li>

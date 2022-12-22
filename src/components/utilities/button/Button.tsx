@@ -1,5 +1,5 @@
 import React from 'react'
-import { Utilities } from '../../../model/utilities'
+import { Utilities } from '../../../models/utilities'
 
 const Button = ({children, className}: Utilities) => {
   return (
