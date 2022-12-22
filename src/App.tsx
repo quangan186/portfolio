@@ -1,12 +1,15 @@
 import React from 'react';
-
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import './App.css';
+import Portfolio from './views/Portfolio';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      Hello Diablo!
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Portfolio />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
