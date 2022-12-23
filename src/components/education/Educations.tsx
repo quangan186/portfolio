@@ -5,7 +5,7 @@ import EducationList from './EducationList'
 
 const Educations: React.FC = () => {
   return (
-    <Container className='w-full max-h-screen bg-[#FFE6EB]'>
+    <Container className='w-full bg-[#FFE6EB]'>
         <Title className='!text-[32px]'>Educations</Title>
         <EducationList />
     </Container>

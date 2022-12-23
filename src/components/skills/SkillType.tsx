@@ -1,16 +1,15 @@
 import React from 'react'
+import { SkillsModel } from '../../models/skillsModel'
 import Title from '../utilities/text/Title'
 
-const SkillType: React.FC = () => {
+const SkillType: React.FC<SkillsModel> = ({skills, skillType}) => {
   return (
     <div className='w-full py-4'>
-        <Title className='!text-[20px]'>Frontend</Title>
+        <Title className='!text-[20px]'>{skillType}</Title>
         <ul className='leading-10'>
-            <li>Skill</li>
-            <li>Skill</li>
-            <li>Skill</li>
-            <li>Skill</li>
-            <li>Skill</li>
+            {skills.map((skill, index) => (
+              <li key={index}>{skill}</li> 
+            ))}
         </ul>
     </div>
   )

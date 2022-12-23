@@ -6,7 +6,7 @@ import ProfileInfo from './ProfileInfo'
 
 const Profile: React.FC = () => {
   return (
-    <Container className='w-full max-h-screen bg-[#E1F2FB]'>
+    <Container className='w-full bg-[#E1F2FB]'>
         <Title className='!text-[32px]'>Profile</Title>
         <div className='flex gap-4 w-full py-8'>
             <Avatar />
