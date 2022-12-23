@@ -5,18 +5,17 @@ import PortfolioPdf from '../components/portfolio/PortfolioPdf'
 import Profile from '../components/profile/Profile'
 import Projects from '../components/projects/Projects'
 import Skills from '../components/skills/Skills'
-import Container from '../components/utilities/container/Container'
 
 const Portfolio: React.FC = () => {
   return (
-    <Container className='bg-blue-300'>
+    <div className=''>
         <Home />
         <Profile />
         <Projects />
         <Skills />
         <Educations />
         <PortfolioPdf />
-    </Container>
+    </div>
   )
 }
 

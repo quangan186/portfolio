@@ -1,13 +1,14 @@
 import React from 'react'
+import Container from '../utilities/container/Container'
 import Title from '../utilities/text/Title'
 import SkillList from './SkillList'
 
 const Skills: React.FC = () => {
   return (
-    <div className='w-full max-h-screen'>
+    <Container className='w-full max-h-screen bg-[#F1F9F9]'>
         <Title className='!text-[32px]'>Skills</Title>
         <SkillList />
-    </div>
+    </Container>
   )
 }
 

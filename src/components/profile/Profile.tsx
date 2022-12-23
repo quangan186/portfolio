@@ -1,17 +1,18 @@
 import React from 'react'
+import Container from '../utilities/container/Container'
 import Title from '../utilities/text/Title'
 import Avatar from './Avatar'
 import ProfileInfo from './ProfileInfo'
 
 const Profile: React.FC = () => {
   return (
-    <div className='w-full max-h-screen'>
+    <Container className='w-full max-h-screen bg-[#E1F2FB]'>
         <Title className='!text-[32px]'>Profile</Title>
-        <div className='flex w-full h-full py-8'>
+        <div className='flex gap-4 w-full py-8'>
             <Avatar />
             <ProfileInfo />
         </div>
-    </div>
+    </Container>
   )
 }
 

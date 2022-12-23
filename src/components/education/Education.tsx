@@ -7,9 +7,9 @@ const Education:React.FC = () => {
     <div className='py-4'>
         <div className='flex'>
             <Title className='!text-[20px]'>Bachelor of Information Technology</Title>
-            <Title className='!text-[20px] text-center'>RMIT University Vietnam</Title>
+            <Title className='!text-[20px] text-right'>RMIT University Vietnam</Title>
         </div>
-        <Text className='!text-[16px]'>GPA: 3.3 / 4.0</Text>
+        <Text className='!text-[16px] py-4'>GPA: 3.3 / 4.0</Text>
     </div>
   )
 }

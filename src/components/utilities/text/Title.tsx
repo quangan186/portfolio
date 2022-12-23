@@ -3,7 +3,7 @@ import { Utilities } from '../../../models/utilities'
 
 const Title: React.FC<Utilities> = ({children, className}) => {
   return (
-    <h1 className={`${className} w-full font-bold text-[60px]`}>
+    <h1 className={`${className} w-full font-bold text-[60px] font-sourceSansPro`}>
         {children}
     </h1>
   )

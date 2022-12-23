@@ -3,7 +3,7 @@ import { Utilities } from '../../../models/utilities'
 
 const Text = ({children, className}: Utilities) => {
   return (
-    <p className={`${className} text-[28px]`}>
+    <p className={`${className} text-[28px] font-now tracking-wider`}>
         {children}
     </p>
   )

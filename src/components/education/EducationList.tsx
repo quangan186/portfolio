@@ -5,8 +5,6 @@ const EducationList: React.FC = () => {
   return (
     <div>
         <Education />
-        <Education />
-        <Education />
     </div>
   )
 }
