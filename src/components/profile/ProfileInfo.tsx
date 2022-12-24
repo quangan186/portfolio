@@ -9,7 +9,7 @@ const ProfileInfo:React.FC = () => {
       <Text className='!text-[20px]'>- Gender: <span>Male</span></Text>
       <Text className='!text-[20px]'>- Email: <span>quangan186@gmail.com</span></Text>
       <Text className='!text-[20px]'>- Hobbies: <span>Coding web, Playing sports, Play video games, Play guitar</span></Text>
-      <Text className='italic !text-[20px]'>"Currently, I am an Information Technology student at RMIT University Vietnam and I am interested in developing web and mobile apps, especially in front-end developments. Moreover, thanks to the knowledge and some projects I have done during my study, I can solve some basic back-end problems."</Text>
+      <Text className='italic !text-[20px]'>"Personally, I am a sociable, honest, funny, hardworking person and always try to learn from people around me to improve myself as well as for the work I do to achieve the best quality. My life motto is that people can do it, I can do it"</Text>
     </div>
   )
 }

@@ -14,7 +14,7 @@ const ProjectCard: React.FC<ProjectCardModel> = ({
 }) => {
   return (
     <div className={`flex gap-4 h-[30vh] items-center relative ${className}`}>
-      <Image children={achievement} className="max-w-[40px] max-h-[40px] " />
+      <Image children={achievement} className="max-w-[40px] max-h-[40px]" imgClassName="animate-bounce" />
       <span className="w-[1px] h-full bg-black"></span>
       <div className="py-4 leading-10 ">
         <Title className="!text-[20px]">{title}</Title>
