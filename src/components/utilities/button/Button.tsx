@@ -1,9 +1,9 @@
 import React from 'react'
-import { Utilities } from '../../../models/utilities'
+import { ButtonModel } from '../../../models/utilities'
 
-const Button = ({children, className}: Utilities) => {
+const Button: React.FC<ButtonModel> = ({children, className, type}) => {
   return (
-    <button className={`${className} p-4 rounded-lg text-white bg-slate-500 cursor-pointer`}>{children}</button>
+    <button type={type} className={`${className} p-4 rounded-lg text-white bg-slate-500 cursor-pointer`}><a href='/data/cv.png' download>{children}</a></button>
   )
 }
 

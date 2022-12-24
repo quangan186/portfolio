@@ -6,3 +6,7 @@ export interface Utilities{
 export interface ImageModel extends Utilities{
     imgClassName?: string
 }
+
+export interface ButtonModel extends Utilities{
+    type?: any,
+}

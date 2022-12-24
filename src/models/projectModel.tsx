@@ -4,3 +4,7 @@ export interface ProjectModel{
     githubLink: string,
     description: string
 }
+
+export interface ProjectCardModel extends ProjectModel{
+    className?: string
+}
