@@ -5,7 +5,7 @@ import Title from '../utilities/text/Title'
 const Education:React.FC = () => {
   return (
     <div className='py-4'>
-        <div className='flex'>
+        <div className='flex gap-4'>
             <Title className='!text-[20px]'>Bachelor of Information Technology</Title>
             <Title className='!text-[20px] text-right'>RMIT University Vietnam</Title>
         </div>

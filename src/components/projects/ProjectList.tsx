@@ -4,7 +4,7 @@ import ProjectCard from './ProjectCard'
 
 const ProjectList: React.FC = () => {
   return (
-    <div className='flex flex-col gap-8'>
+    <div className=''>
         {projectList.map((project, index) => {
           return <ProjectCard title={project.title} role={project.role} githubLink={project.githubLink} description={project.description} key={index}/>
         })}

@@ -1,24 +1,29 @@
+import { SkillModel } from "../models/skillsModel";
+
 export const skillsList: {
-  frontend: string[];
-  backend: string[];
-  others: string[];
+  frontend: SkillModel[];
+  backend: SkillModel[];
+  others: SkillModel[];
 } = {
   frontend: [
-    "HTML/CSS/JavaScript",
-    "React.js",
-    "Tailwind CSS",
-    "Swift UI",
-    "Typescript",
+    { skill: "HTML/CSS/JavaScript", level: "Experienced" },
+    { skill: "React.js", level: "Experienced" },
+    { skill: "Tailwind CSS", level: "Experienced" },
+    { skill: "Swift UI", level: "Beginner" },
+    { skill: "TypeScript", level: "Beginner" },
   ],
-  backend: ["Node.js", "Express.js"],
+  backend: [
+    { skill: "Node.js", level: "Beginner" },
+    { skill: "Express.js", level: "Beginner" },
+  ],
   others: [
-    "PHP",
-    "MongoDB",
-    "MySQL",
-    "Git",
-    "Python",
-    "Java",
-    "Swift",
-    "Figma",
+    { skill: "PHP", level: "Beginner" },
+    { skill: "MongoDB", level: "Beginner" },
+    { skill: "MySQL", level: "Beginner" },
+    { skill: "Git", level: "Skillful" },
+    { skill: "Python", level: "Beginner" },
+    { skill: "Java", level: "Skillful" },
+    { skill: "Swift", level: "Beginner" },
+    { skill: "Figma", level: "Skillful" },
   ],
 };

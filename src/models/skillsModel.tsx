@@ -1,4 +1,9 @@
+export interface SkillModel{
+    skill: string,
+    level: string
+}
+
 export interface SkillsModel{
-    skills: string[],
+    skills: SkillModel[],
     skillType: string
 }

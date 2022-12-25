@@ -4,16 +4,16 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   darkMode: "class",
-	screens: {
-		sm: "480px",
-		md: "768px",
-		lg: "1284px",
-		xl: "1440px",
-	},
 	daisyui: {
 		themes: [],
 	},
 	theme: {
+		screens: {
+			sm: "480px",
+			md: "768px",
+			lg: "1284px",
+			xl: "1440px",
+		},
 		extend: {
 			colors: {
 				primary: {

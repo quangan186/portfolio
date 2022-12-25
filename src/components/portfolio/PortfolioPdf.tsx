@@ -5,7 +5,7 @@ import Title from '../utilities/text/Title'
 
 const PortfolioPdf: React.FC = () => {
   return (
-    <Container className='w-full max-h-screen flex bg-[#748DA6]'>
+    <Container className='w-full max-h-screen flex gap-8 bg-[#748DA6]'>
         <div className='w-full'>
           <Contacts />
         </div>
