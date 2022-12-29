@@ -20,6 +20,9 @@ module.exports = {
 					100: "#BAE1E7",
 				},
 				secondary: "#F1AFAA",
+				tertiary: {
+					
+				}
 			},
 			keyframes: {
 				beat: {
