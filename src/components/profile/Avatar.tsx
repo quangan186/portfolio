@@ -9,7 +9,7 @@ const Avatar:React.FC = () => {
     <div className='w-1/2 flex flex-col justify-center items-center'>
       <Image children={ava} />
       <Title className='py-4 !text-[20px] text-center'>An Bui</Title>
-      <Text className='!text-[16px] text-center !font-semibold'>Web developer</Text>
+      <Text className='!text-[16px] text-center !font-semibold'>Web and Mobile developer</Text>
     </div>
   )
 }
