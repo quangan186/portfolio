@@ -1,9 +1,11 @@
 export interface SkillModel{
     skill: string,
-    level: string
+    level: string,
 }
 
 export interface SkillsModel{
     skills: SkillModel[],
-    skillType: string
+    skillType: string,
+    className?: string,
+
 }

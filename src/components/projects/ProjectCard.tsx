@@ -6,6 +6,7 @@ import Title from "../utilities/text/Title";
 import achievement from "../../assets/svg/achievement.svg";
 
 const ProjectCard: React.FC<ProjectCardModel> = ({
+  id,
   title,
   role,
   githubLink,
@@ -17,44 +18,55 @@ const ProjectCard: React.FC<ProjectCardModel> = ({
 }) => {
   return (
     <div
-      className={`flex gap-4 my-8 h-[30vh] items-center relative ${className}`}
+      className={`flex items-center gap-4 mt-8 relative ${className}`}
     >
       <Image
         children={achievement}
         className="max-w-[40px] max-h-[40px]"
         imgClassName="animate-bounce"
       />
-      <span className="w-[1px] h-full bg-black"></span>
-      <div className="py-4 leading-10 ">
+      <div className="leading-10 px-8 border-l border-l-black">
         <Title className="!text-[20px]">{title}</Title>
-        <Title className="!text-[16px]">
-          Github repo:{" "}
-          <a
-            href={githubLink}
-            target="_blank"
-            rel="noreferrer"
-            className="font-semibold hover:underline"
-          >
-            {githubLink}
-          </a>
-        </Title>
-        {demo ? (
-          <Title className="!text-[16px]">
-            Demo:{" "}
-            <a
-              href={demo}
-              target="_blank"
-              rel="noreferrer"
-              className="font-semibold hover:underline"
-            >
-              {demo}
-            </a>
-          </Title>
-        ) : (
-          <Title className="!text-[16px] flex gap-2">Teamsize: <Text className="!text-[16px] !font-normal">{teamSize}</Text></Title>
-        )}
-        <Title className="!text-[16px]">Role: {role}</Title>
-        <Text className="!text-[16px]">{description}</Text>
+
+        <div className=" flex gap-4 ">
+        <Text className="!text-[16px]">
+          <span className="italic">
+            {role} {teamSize && `(${teamSize} people)`}{" "}
+          </span>{" "}
+        </Text>
+        
+        <Text className="!text-[16px] flex gap-4 w-fit ">
+            {githubLink && (
+              <a
+                href={githubLink}
+                target="_blank"
+                rel="noreferrer"
+                className="text-blue-500 hover:underline"
+              >
+                Github
+              </a>
+            )}
+
+            {demo && (
+              <a
+                href={demo}
+                target="_blank"
+                rel="noreferrer"
+                className="text-blue-500 hover:underline"
+              >
+                Demo
+              </a>
+            )}
+          </Text>
+        </div>
+        
+        <Title className="!text-[16px]">Description:</Title>
+        <ul className=" list-disc">
+          {description.map((des) => {
+            return <li>{des}</li>;
+          })}
+        </ul>
+        {/* <Text className="!text-[16px]">{description}</Text> */}
         <div className="flex items-baseline gap-2">
           <Title className="!text-[16px] w-fit ">Technologies used : </Title>
           {techStacks.map((techStack: string) => {

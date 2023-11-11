@@ -1,8 +1,8 @@
 import { ContactModel } from "../models/contactsModel";
-import facebook from "../assets/svg/facebook.svg"
-import instagram from '../assets/svg/instagram.svg'
-import github from '../assets/svg/github.svg'
-import linkedin from '../assets/svg/linkedin.svg'
+import facebook from "../assets/svg/facebook.svg";
+import instagram from '../assets/svg/instagram.svg';
+import github from '../assets/svg/github.svg';
+import linkedin from '../assets/svg/linkedin.svg';
 
 export const contactList: ContactModel[] = [
     {
@@ -10,7 +10,7 @@ export const contactList: ContactModel[] = [
         icon: facebook
     },
     {
-        contactLink: "https://www.linkedin.com/in/ân-bùi-842875235",
+        contactLink: "https://www.linkedin.com/in/quangan186/",
         icon: linkedin
     },
     {

@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from '../utilities/image/Image'
-import { contactList } from '../../contents/contacts'
+import { contactList } from '../../constants/contacts'
 const ContactList: React.FC = () => {
   return (
     <div className='flex md:gap-8 flex-wrap'>

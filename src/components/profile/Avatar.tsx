@@ -1,15 +1,11 @@
 import React from 'react'
 import ava from '../../assets/img/ava.jpg'
 import Image from '../utilities/image/Image'
-import Text from '../utilities/text/Text'
-import Title from '../utilities/text/Title'
 
 const Avatar:React.FC = () => {
   return (
-    <div className='w-1/2 flex flex-col justify-center items-center'>
-      <Image children={ava} />
-      <Title className='py-4 !text-[20px] text-center'>An Bui</Title>
-      <Text className='!text-[16px] text-center !font-semibold'>Web and Mobile developer</Text>
+    <div className='w-fit'>
+      <Image className='md:h-full max-h-[500px]' imgClassName='!rounded-full md:!rounded-2xl' children={ava} />
     </div>
   )
 }

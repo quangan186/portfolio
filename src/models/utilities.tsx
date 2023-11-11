@@ -9,4 +9,5 @@ export interface ImageModel extends Utilities{
 
 export interface ButtonModel extends Utilities{
     type?: any,
+    onClick?: React.MouseEventHandler<HTMLButtonElement>
 }

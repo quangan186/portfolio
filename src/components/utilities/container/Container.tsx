@@ -3,7 +3,7 @@ import { Utilities } from '../../../models/utilities'
 
 const Container: React.FC<Utilities> = ({children, className}) => {
   return (
-    <div className={`${className} px-8 py-12`}>{children}</div>
+    <div className={`${className} pt-[80px] pb-[20px] px-8 h-screen !text-[#737373]`}>{children}</div>
   )
 }
 
