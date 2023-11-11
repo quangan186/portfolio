@@ -6,5 +6,4 @@ const Button: React.FC<ButtonModel> = ({children, className, type, onClick}) => 
     <button onClick={onClick} type={type} className={`${className} p-4 rounded-lg text-white bg-slate-500 cursor-pointer`}>{children}</button>
   )
 }
-{/* <a href='/data/cv.png' download>{children}</a> */}
 export default Button
