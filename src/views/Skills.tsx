@@ -5,7 +5,7 @@ import SkillList from '../components/skills/SkillList'
 
 const Skills: React.FC = () => {
   return (
-    <Container className='w-full h-fit md:min-h-screen'>
+    <Container className='w-full h-fit'>
         <Title className='!text-[32px]'>Skills</Title>
         <SkillList />
     </Container>

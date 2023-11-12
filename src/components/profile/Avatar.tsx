@@ -4,8 +4,8 @@ import Image from '../utilities/image/Image'
 
 const Avatar:React.FC = () => {
   return (
-    <div className='w-fit'>
-      <Image className='md:h-full max-h-[500px]' imgClassName='!rounded-full md:!rounded-2xl' children={ava} />
+    <div className='w-fit h-fit'>
+      <Image className='!h-full' imgClassName='!rounded-full md:!rounded-2xl' children={ava} />
     </div>
   )
 }

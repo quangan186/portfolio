@@ -10,10 +10,11 @@ const Projects: React.FC = () => {
   return (
     <Container className='w-full !h-fit'>
         <div className='flex justify-between items-center'>
-          <Title className='!text-[32px]'>Project Experiences</Title>
-          <div className='flex gap-4'>
-            <Button onClick={() => {setType("web")}} className='w-[100px] h-fit'>Web</Button>
-            <Button onClick={() => {setType("mobile")}} className='w-[100px] h-fit'>Mobile</Button>
+          <Title className='!text-[32px]'>Projects Experience</Title>
+          <div className='flex gap-4 items-center text-[#323B4C]'>
+            <Button onClick={() => {setType("web")}} className={`relative w-[100px]  h-fit !py-2 !bg-transparent !text-[#323B4C] ${type === 'web' ? "btn-active": ""}`}>Web</Button>
+            |
+            <Button onClick={() => {setType("mobile")}} className={`relative w-[100px] !py-2 !bg-transparent h-fit !text-[#323B4C] ${type === 'mobile' ? "btn-active": ""}`}>Mobile</Button>
           </div>
         </div>
         

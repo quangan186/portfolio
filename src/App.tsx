@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Preview from "./views/Preview";
@@ -11,6 +11,7 @@ import Educations from "./views/Educations";
 import Contacts from "./components/contact/Contacts";
 
 const App: React.FC = () => {
+  const [currentPath, setCurrentPath] = useState(window.location.pathname)
   return (
     <>
       <BrowserRouter>
@@ -19,9 +20,10 @@ const App: React.FC = () => {
             return (
               <NavButton
                 key={index}
-                className="nav-button border-b "
+                className={`nav-button border-b border-b-[#323B4C] ${currentPath === link.to ? "isActive" : ""}`}
                 to={link.to}
                 title={link.title}
+                onClick={() => setCurrentPath(link.to)}
               />
             );
           })}
