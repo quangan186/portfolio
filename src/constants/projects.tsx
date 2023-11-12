@@ -28,8 +28,8 @@ export const webProjects: ProjectModel[] = [
         id: 3,
         title: "Bluelist18",
         role: "Individual",
-        demo: "https://youtu.be/n-R9jJz6xHs",
-        githubLink: "https://github.com/quangan186/S3877482-COSC2657-A1",
+        demo: "https://bluelist18.netlify.app",
+        githubLink: "https://github.com/quangan186/MyPlayList",
         description: [
             "Implement the music player will run the song or audio of any videos on YouTube by copying and pasting the video's URL. Also, users can add or delete songs to the playlist and make the playlist loop one or many songs.",
             "Experience NextJS framework and TypeScript through the project as well as understand how to use YouTube API to get audio links and play music on the website."
@@ -42,7 +42,10 @@ export const webProjects: ProjectModel[] = [
         teamSize: 4,
         role: "Frontend developer",
         githubLink: "https://github.com/kaisergrimlock/SEPM-Project/tree/minh-dev",
-        description: ["The project was developed for supporting doctors to contact each other through video calls"],
+        description: [
+            "The project was developed for supporting doctors to contact each other through video calls",
+            'Experience with socket.io to make real-time call, developing the functions in "Meeting room" such as audio, recording, drawing canvas, etc.'
+        ],
         techStacks: ["MongoDB", "ExpressJs", "ReactJs", "TailwindCSS", "NodeJs"]
     },
     {
@@ -52,8 +55,10 @@ export const webProjects: ProjectModel[] = [
         role: "Frontend developer",
         demo: "https://rmit-blog.netlify.app/",
         githubLink: "https://github.com/b1amage/bits-front-end",
-        description: ["This is the first MERN project that my teammates and I have developed which was built based on the Tinder app"],
-        techStacks: ["MongoDB", "ExpressJs", "ReactJs", "NodeJs"]
+        description: [
+            "This is a MERN project that my teammates and I have developed to help users create, edit, and share their own blogs about technology and it was developed by using MongoDB, ExpressJs, ReactJs, and NodeJs.",
+        ],
+        techStacks: ["MongoDB", "ExpressJs", "ReactJs", "TailwindCSS", "NodeJs"]
     },
     {
         id: 6,
@@ -73,7 +78,10 @@ export const mobileProjects: ProjectModel[] = [
         teamSize: 4,
         role: "Frontend developer",
         githubLink: "https://github.com/TuanDao2002/My-Dictionary",
-        description: ["The project is an iOS English-English dictionary app"],
+        description: [
+            "The project is an iOS English-English dictionary app",
+            'Experience with dictionary API and using Swift and SwiftUI to develop the app'
+        ],
         techStacks: ["Swift", "SwiftUI"]
     },
 
@@ -93,7 +101,9 @@ export const mobileProjects: ProjectModel[] = [
         demo: "https://youtu.be/hyL4v1PeSRY",
         role: "Individual",
         githubLink: "https://github.com/quangan186/COSC2659_Assignment2_s3877482",
-        description: ["The project is an iOS app built based on the Tic tac toe game"],
+        description: [
+            "The project is an iOS app built based on the Tic tac toe game",
+        ],
         techStacks: ["Swift", "SwiftUI"]
     },
     
@@ -101,7 +111,7 @@ export const mobileProjects: ProjectModel[] = [
         id: 4,
         title: "MemeLand",
         role: "Individual",
-        demo: "https://youtu.be/hyL4v1PeSRY",
+        demo: "https://youtu.be/4X4Qj6iKltM",
         githubLink: "https://github.com/quangan186/COSC2659-A1",
         description: ["This is the first iOS app and it is about collecting meme templates from social media applications"],
         techStacks: ["Swift", "SwiftUI"]

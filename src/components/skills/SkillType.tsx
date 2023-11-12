@@ -10,7 +10,7 @@ const SkillType: React.FC<SkillsModel> = ({ skills, skillType, className }) => {
         {skills.map((skill, index) => (
           <div key={index} className="flex justify-between gap-4">
             <li>{skill.skill}</li>
-            <li className='font-semibold'>({skill.level})</li>
+            <li className='font-semibold'>{skill.level} / 5</li>
           </div>
         ))}
       </ul>

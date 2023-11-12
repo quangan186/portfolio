@@ -1,6 +1,6 @@
 export interface SkillModel{
     skill: string,
-    level: string,
+    level: number,
 }
 
 export interface SkillsModel{
