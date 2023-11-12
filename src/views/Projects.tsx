@@ -9,7 +9,7 @@ const Projects: React.FC = () => {
 
   return (
     <Container className='w-full !h-fit'>
-        <div className='flex justify-between items-center'>
+        <div className='flex justify-between items-center w-full'>
           <Title className='!text-[32px]'>Projects Experience</Title>
           <div className='flex gap-4 items-center text-[#323B4C]'>
             <Button onClick={() => {setType("web")}} className={`relative w-[100px]  h-fit !py-2 !bg-transparent !text-[#323B4C] ${type === 'web' ? "btn-active": ""}`}>Web</Button>

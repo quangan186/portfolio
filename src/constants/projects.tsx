@@ -3,7 +3,7 @@ import { ProjectModel } from "../models/projectModel";
 export const webProjects: ProjectModel[] = [
     {   
         id: 1,
-        title: "Netcompany Social Suggestion",
+        title: "Netcompany Social Suggestion ( Working at Netcompany, at Floor 24 in Opal Tower, 92 Nguyen Huu Canh st, Ward 22, Binh Thanh District, HCMC )",
         teamSize: 4,
         role: "Frontend developer",
         demo: "https://net-social.netlify.app/",
