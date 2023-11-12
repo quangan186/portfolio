@@ -9,7 +9,7 @@ const ProfileInfo: React.FC = () => {
     <div className="w-full leading-10 md:flex gap-6 h-fit">
       <Avatar />
 
-      <div className="w-full flex flex-col h-full gap-4 justify-between">
+      <div className="w-full flex flex-col h-full gap-4 justify-between my-4">
         <div className="h-fit flex flex-col gap-2">
           <Text className="!text-[16px] font-bold leading-8">
             - Full name: <span className="font-normal">Bui Quang An</span>
