@@ -68,7 +68,7 @@ const ProjectCard: React.FC<ProjectCardModel> = ({
         </ul>
         {/* <Text className="!text-[16px]">{description}</Text> */}
         <div className="flex items-baseline gap-2">
-          <Title className="!text-[16px] w-fit ">Technologies used : </Title>
+          <Title className="!text-[16px] !w-fit ">Technologies used : </Title>
           {techStacks.map((techStack: string) => {
             return <Text className="!text-[16px]">{techStack}</Text>;
           })}

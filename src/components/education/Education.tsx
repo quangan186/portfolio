@@ -7,9 +7,10 @@ type EducationModel={
   school: string,
   gpa: number,
   startTime: string,
-  endTime: string
+  endTime: string,
+  testamur?: string
 }
-const Education:React.FC<EducationModel> = ({title, school, gpa, startTime, endTime}) => {
+const Education:React.FC<EducationModel> = ({title, school, gpa, startTime, endTime, testamur}) => {
   return (
     <div className='py-4'>
         <div className='flex gap-4'>
@@ -20,6 +21,7 @@ const Education:React.FC<EducationModel> = ({title, school, gpa, startTime, endT
             <Text className='!text-[16px] py-4 italic'>GPA: {gpa} / 4.0</Text>
             <Text className='!text-[16px] py-4 italic'>({startTime} - {endTime})</Text>
         </div>
+        <a href={testamur} target='_blank' rel='noreferrer' className="text-blue-500 hover:underline flex gap-4 ">Link to my testamur</a>
     </div>
   )
 }

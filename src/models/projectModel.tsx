@@ -4,7 +4,7 @@ export interface ProjectModel{
     demo?: string,
     teamSize?: number
     role: string,
-    githubLink: string,
+    githubLink?: string,
     description: string[],
     techStacks: string[]
 }

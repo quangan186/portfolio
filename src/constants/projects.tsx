@@ -3,6 +3,14 @@ import { ProjectModel } from "../models/projectModel";
 export const webProjects: ProjectModel[] = [
     {   
         id: 1,
+        title: "eSchool Cambodia ( Working at IMT Solutions | Address: 55-57 Bau Cat 4 st, Ward 14, Tan Binh District, HCMC )",
+        role: "Mobile developer",
+        demo: "https://net-social.netlify.app/",
+        description: ["Developed an app and website for managing over 30,000 students and teachers in Cambodia.", 'Implement important UIs such as “Update student profile”, “Notifications”, “Input score”, etc. as well as their features', "Experience in using Redux Toolkit and Redux Toolkit Query to handle API", "Demonstrated adeptness in project coordination, fostering strong collaborations with team members, overseeing component management, structuring projects effectively, and adeptly handling data"],
+        techStacks: ["React Native", "TypeScript", "Angular", ".Net", "SQL"]
+    },
+    {   
+        id: 1,
         title: "Netcompany Social Suggestion ( Working at Netcompany, at Floor 24 in Opal Tower, 92 Nguyen Huu Canh st, Ward 22, Binh Thanh District, HCMC )",
         teamSize: 4,
         role: "Frontend developer",

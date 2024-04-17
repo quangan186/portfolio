@@ -6,6 +6,10 @@ export const navLinks: NavButtonModel[] = [
         to: "/",
     },
     {
+        title: "Work Experience",
+        to: "/work-experiences",
+    },
+    {
         title: "Projects",
         to: "/projects",
     },

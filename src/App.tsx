@@ -9,6 +9,7 @@ import Projects from "./views/Projects";
 import Skills from "./views/Skills";
 import Educations from "./views/Educations";
 import Contacts from "./components/contact/Contacts";
+import WorkExperiences from "./views/WorkExperiencs";
 
 const App: React.FC = () => {
   const [currentPath, setCurrentPath] = useState(window.location.pathname)
@@ -30,6 +31,7 @@ const App: React.FC = () => {
         </div>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/work-experiences" element={<WorkExperiences />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/educations" element={<Educations />} />
