@@ -1,18 +1,8 @@
-import React, { useEffect, useState } from "react";
-import { mobileProjects, webProjects } from "../../constants/projects";
+import React from "react";
+import { projects } from "../../constants/projects";
 import ProjectCard from "./ProjectCard";
-import { ProjectModel } from "../../models/projectModel";
 
-type ProjectListProps = {
-  type: string
-};
-
-const ProjectList: React.FC<ProjectListProps> = ({type}) => {
-  const [projects, setProjects] = useState<ProjectModel[]>([])
-
-  useEffect(() => {
-    setProjects(type === "web" ? webProjects : mobileProjects)
-  }, [type])
+const ProjectList: React.FC = () => {
 
   return (
     <>
